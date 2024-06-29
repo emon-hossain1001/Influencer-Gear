@@ -36,3 +36,41 @@ nav ul li a {
     color: rgb(58, 58, 58);
     font-weight: 600;
 }
+
+/* hero section */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    margin: 50px auto;
+}
+.hero-content {
+    width: 50%;
+}
+.hero-title {
+    color: rgb(58, 58, 58);
+    font-size: 3.2rem;
+    font-weight: 700;
+}
+.hero-info {
+    color: rgb(58, 58, 58);
+    font-size: 1rem;
+    font-weight: 600;
+}
+.hero-btn {
+    color: rgb(255,255,255);
+    background-color: rgb(224, 44, 109);
+    padding: 10px 24px;
+    border-radius: 41px;
+    border: none;
+}
+.hero-img {
+    background-image: url("./images/Circle\ design.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    padding: 20px;
+}
+
+
