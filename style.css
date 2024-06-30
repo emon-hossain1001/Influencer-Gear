@@ -72,6 +72,20 @@ nav ul li a {
     background-size: 100% 100%;
     padding: 20px;
 }
+/* marketplace section */
+.market{
+    margin: 50px auto;
+}
+
+.market-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    padding: 20px;
+}
 
 
 
@@ -106,6 +120,13 @@ nav ul li a {
     .hero-img img{
         width: 100%;
     }
+    .market {
+        margin: 0;
+    }
+    .market-container {
+        border: none;
+        flex-wrap: wrap;
+    }
 }
 
 /* Responsive for Tablet */
@@ -123,5 +144,8 @@ nav ul li a {
     .hero{
         flex-direction: column-reverse;
         gap: 10px;
+    }
+    .market-container {
+        flex-wrap: wrap;
     }
 }
