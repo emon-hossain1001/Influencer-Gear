@@ -157,6 +157,26 @@ nav ul li a {
     padding: 10px 24px;
     border: none;
 }
+/* footer section */
+footer {
+    background-color: rgb(3, 3, 25);
+    text-align: center;
+    padding: 50px 0;
+}
+.footer-title {
+    color: rgb(255,255,255);
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.copyright {
+    color: rgb(255,255,255);
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.social-link a {
+    color: rgb(255,255,255);
+    margin-right: 10px;
+}
 
 
 
